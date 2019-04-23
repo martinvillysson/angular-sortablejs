@@ -17,11 +17,11 @@ export declare class SortablejsDirective implements OnInit, OnChanges, OnDestroy
     ngOnInit(): void;
     ngOnChanges(changes: SimpleChanges): void;
     ngOnDestroy(): void;
-    private getBindings();
+    private getBindings;
     private readonly options;
     private readonly optionsWithoutEvents;
-    private proxyEvent(eventName, ...params);
+    private proxyEvent;
     private readonly isCloning;
-    private clone<T>(item);
+    private clone;
     private readonly overridenOptions;
 }

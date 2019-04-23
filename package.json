@@ -32,22 +32,23 @@
   },
   "homepage": "https://github.com/SortableJS/angular-sortablejs#readme",
   "devDependencies": {
-    "@angular/compiler": "4.0.1",
-    "@angular/compiler-cli": "4.0.1",
-    "@angular/core": "4.0.1",
-    "@types/node": "7.0.12",
-    "@types/systemjs": "0.20.2",
-    "git-validate": "2.2.2",
-    "rimraf": "2.6.1",
-    "rxjs": "^5.5.2",
-    "sortablejs": "^1.5.1",
-    "tslint": "5.1.0",
-    "typescript": "2.2.2",
-    "watch": "^1.0.2"
+    "@angular/compiler": "7.2.13",
+    "@angular/compiler-cli": "7.2.13",
+    "@angular/core": "7.2.13",
+    "@types/node": "11.13.7",
+    "@types/systemjs": "0.20.6",
+    "git-validate": "2.2.4",
+    "rimraf": "2.6.3",
+    "rxjs": "^6.5.1",
+    "sortablejs": "^1.8.3",
+    "tslint": "5.16.0",
+    "typescript": "3.2.4",
+    "watch": "^1.0.2",
+    "zone.js": "~0.8.28"
   },
   "peerDependencies": {
-    "sortablejs": ">=1.5.1",
-    "@angular/core": ">=4.0.0"
+    "sortablejs": ">=1.8.0",
+    "@angular/core": ">=7.2.13"
   },
   "files": [
     "dist/"

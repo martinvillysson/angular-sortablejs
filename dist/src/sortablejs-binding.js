@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 var SortablejsBinding = (function () {
     function SortablejsBinding(target) {
         this.target = target;
@@ -35,5 +33,5 @@ var SortablejsBinding = (function () {
     });
     return SortablejsBinding;
 }());
-exports.SortablejsBinding = SortablejsBinding;
+export { SortablejsBinding };
 //# sourceMappingURL=sortablejs-binding.js.map

@@ -1,3 +1,4 @@
+// tslint:disable-next-line: max-line-length
 import { Directive, ElementRef, Inject, Input, NgZone, OnChanges, OnDestroy, OnInit, Optional, Renderer2, SimpleChange, SimpleChanges } from '@angular/core';
 import { GLOBALS } from './globals';
 import { SortablejsBindingTarget } from './sortablejs-binding-target';

@@ -1,9 +1,7 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var sortablejs_binding_1 = require("./sortablejs-binding");
+import { SortablejsBinding } from './sortablejs-binding';
 var SortablejsBindings = (function () {
     function SortablejsBindings(bindingTargets) {
-        this.bindings = bindingTargets.map(function (target) { return new sortablejs_binding_1.SortablejsBinding(target); });
+        this.bindings = bindingTargets.map(function (target) { return new SortablejsBinding(target); });
     }
     SortablejsBindings.prototype.injectIntoEvery = function (index, items) {
         this.bindings.forEach(function (b, i) { return b.insert(index, items[i]); });
@@ -23,5 +21,5 @@ var SortablejsBindings = (function () {
     });
     return SortablejsBindings;
 }());
-exports.SortablejsBindings = SortablejsBindings;
+export { SortablejsBindings };
 //# sourceMappingURL=sortablejs-bindings.js.map
